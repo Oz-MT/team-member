@@ -1,77 +1,58 @@
-<p>Clarusway<img align="right"
-  src="https://secure.meetupstatic.com/photos/event/3/1/b/9/600_488352729.jpeg"  width="15px"></p>
+# Team Member Page
 
-# Project-004 : Team Members Page (HC-004)
+## Welcome! 👋
 
-## Description
-Project aims to create your development team web page.
+Thanks for checking out my team member page project.
 
-## Problem Statement
+## Table of contents
 
-- Your company is updating its website. They ask you to make your development team page.
+- [Overview](#overview)
+  - [Description](#description)
+  - [Screenshot](#screenshot)
+  - [Live Link](#live-link)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [Libraries and Technologies I use](#libraries-and-technologies-i-use)
+  - [What I learned](#what-i-learned)
 
-## Project Skeleton 
+## Overview
 
-```
-004-team-members-page(folder)
-|
-|----readme.md         # Given to the students (Definition of the project)
-|----/images # Contains development team members photos         
-|----solution
-        |----index.html  
-        |----style.css   
-        
-```
+### Description
 
-## Expected Outcome
+Project aims to development fully responsive team web page within html and css
 
-![Project 004 Snapshot](./project04.png)
+### Layout
 
-## Objective
+My challenge is to build out mobile, tablet and a desktop version of the this chat app css illustration project. 
 
-Build a responsive web page similar to [Project 004 Snapshot](./project04.png) 
-### At the end of the project, following topics are to be covered;
+### Screenshot
 
-- HTML 
+![](https://github.com/Oz-MT/team-member/blob/master/views/Views%20(1500%20%C3%97%201500%20piksel).png)
 
-- CSS
+### Live Link
 
+[Click Me!](https://oz-mt.github.io/team-member/)
 
-### At the end of the project, students will be able to;
+## My process
 
-- improve coding skills within HTML & CSS & JS
+### Built with
 
-- use git commands (push, pull, commit, add etc.) and Github as Version Control System.
+- Semantic HTML5 markup
+- CSS custom properties
+- Flexbox
+- CSS Grid
+- Responsive design
 
-## Steps to Solution
-  
-- Step 1: Download or clone project repo on Github 
+### Libraries and Technologies I use
+ 
+ * HTML5
+ * CSS3
 
-- Step 2: Create project folder for local public repo on your pc
+### What I learned
 
-- Step 3: Team Members Web Page
-
->Part-1 HTML Structure
-
-	- Creat structure of the HTML5
-	- Give name of your project (title)
-	- Create the main structur of the HTML
-
->>Part-2 CSS Structure
-
-    - You can apply all the technologies you learn. (Flexbox, Grid)
-	- Set a background and define font color
-	- Set container background color and margin
-	- Define others color-size-padding etc...
-
-### Images
-[Images Folder](./images/)
-
-
-## Notes
-
-- Pay attention to the direction of the texts in the picture.
-- **Your page should be responsive web.**
-
-<center> ⌛ Happy Coding  ✍ </center>
-
+- Layout of the page
+- css flex
+- css grid 
+- css positons
+- css transfrom methods
+- Responsive desing parameters 
