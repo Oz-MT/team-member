@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1.6rem;
+}
+
+.container {
+  background-color: rgb(240, 240, 240);
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5rem 10% 0;
+  column-gap: 15rem;
+}
+
+header .text {
+  width: 100%;
+  max-width: 35rem;
+}
+
+.members {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 0 7.5% 5rem;
+}
+
+.members .member {
+  margin: auto;
+  transition: all 1s ease-in-out;
+}
+
+.members .member:hover {
+  transform: scale(1.05);
+}
+
+.members .member .photo-job {
+  display: flex;
+  /* gap: 1rem; */
+  align-items: flex-start;
+}
+
+.members .member .photo-job img {
+  width: 100%;
+  max-width: 30rem;
+  margin-bottom: 1rem;
+  border-radius: 1.5rem;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.members .member .photo-job .job {
+  position: relative;
+}
+
+.members .member .photo-job .job p {
+  transform: rotate(90deg);
+  position: absolute;
+  left: -5.5rem;
+  top: 6.5rem;
+  width: 15rem;
+}
+
+.members .medium {
+  padding-top: 20rem;
+}
+
+@media (max-width: 1400px) {
+  .members {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .member:nth-child(4) {
+    padding-top: 20rem;
+  }
+  .member:nth-child(5) {
+    padding-top: 0;
+  }
+
+  .member:last-child {
+    padding-top: 20rem;
+  }
+}
+
+@media (max-width: 992px) {
+  header {
+    flex-direction: column;
+    row-gap: 2rem;
+    text-align: center;
+  }
+
+  .members .member .photo-job img {
+    max-width: 25rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .members {
+    grid-template-columns: 1fr;
+    row-gap: 3rem;
+    padding-top: 5rem;
+  }
+
+  .member:nth-child(2) {
+    padding-top: 0;
+  }
+
+  .member:nth-child(4) {
+    padding-top: 0;
+  }
+
+  .member:last-child {
+    padding-top: 0;
+  }
+
+  .members .member .photo-job img {
+    max-width: 35rem;
+  }
+}
+
+@media (max-width: 375px) {
+  .members .member .photo-job img {
+    max-width: 30rem;
+  }
+
+  html {
+    font-size: 60%;
+  }
+}
